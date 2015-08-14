@@ -20,12 +20,12 @@ PHP Package Boilerplate
     ```
     "psr-4": {
         "App\\": "app/",
-        "MyVendor\\MyPackage\\": "vendor/my-vendor/my-package"
+        "MyVendor\\MyPackage\\": "vendor/my-vendor/my-package/src"
     }
     ```
   Note: When you will submit your package to **packagist.org** for composer package then you don't need to follow above instruction #3.
     
-4. Run.
+4. Navigate to your project directory and run.
     ```
     composer dump-autoload
     composer update
@@ -36,15 +36,14 @@ PHP Package Boilerplate
 
 See the bellow snippets.
 
-  ```php
-  \MyVendor\MyPackage\MyPackageClass::sayHi();
-  
-  // OR 
-  
-  use MyVendor\MyPackage;
-  MyPackageClass::sayHi();
-  
-  ```
+```php
+\MyVendor\MyPackage\MyPackageClass::sayHi();
+
+// OR 
+
+use MyVendor\MyPackage;
+MyPackageClass::sayHi();
+```
 
 ##Author
 

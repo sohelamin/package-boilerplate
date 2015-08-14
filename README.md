@@ -23,7 +23,7 @@ PHP Package Boilerplate
         "MyVendor\\MyPackage\\": "vendor/my-vendor/my-package"
     }
     ```
-  Note: When you will submit your package to **packagist.org** for composer package then you don't need to follow above instruction.
+  Note: When you will submit your package to **packagist.org** for composer package then you don't need to follow above instruction #3.
     
 4. Run.
     ```
